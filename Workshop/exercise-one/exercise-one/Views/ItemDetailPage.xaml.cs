@@ -28,7 +28,7 @@ namespace exercise_one.Views
 
             var item = new Item
             {
-                Name = "Item 1",
+                Text = "Item 1",
                 Description = "This is an item description."
             };
 

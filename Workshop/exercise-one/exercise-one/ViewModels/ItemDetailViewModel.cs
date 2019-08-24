@@ -9,7 +9,7 @@ namespace exercise_one.ViewModels
         public Item Item { get; set; }
         public ItemDetailViewModel(Item item = null)
         {
-            Title = item?.Name;
+            Title = item?.Text;
             Item = item;
         }
     }
